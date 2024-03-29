@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Mostrar las imágenes de las selecciones de los jugadores
         resultadoDiv.innerHTML = `
-            <img src="./images/${eleccionUsuario}.JPG" class="seleccionada">
-            <img src="./images/${eleccionMaquina}.JPG">
+            <img src="./images/${eleccionUsuario}.jpg" class="seleccionada">
+            <img src="./images/${eleccionMaquina}.jpg">
         `;
 
         // Determinar el ganador y mostrarlo en texto
