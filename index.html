@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tac+One&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <title>Yan ken po</title>
+</head>
+<body>
+    <div id="juego">
+        <h1>Yan ken po!</h1>
+        <h2>Aceptas el reto??</h2>
+        <p>Escoge una de las imagenes y haz click en jugar</p>
+        <div>
+            <p>
+            <img id="piedra" src="./images/piedra.JPG">
+            <img id="papel" src="./images/papel.JPG">
+            <img id="tijera" src="./images/tijera.JPG">
+            </p>
+        </div>
+        <div id="button">
+            <a href="#resultado"><button class="button-85" onclick="jugar()">Jugar</button></a>
+        </div>
+    </div>
+    <p>
+        <div id="espacio"></div>
+        <div id="resultado" ></div>
+        <div id="button">
+            <a href="#juego"><button class="button-85">Jugar otra vez</button></a>
+        </div>
+    </p>
+    
+</body>
+</html>
