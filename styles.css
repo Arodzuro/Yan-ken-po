@@ -65,7 +65,7 @@ img.seleccionada {
 img:hover {
 background-color: #ffffff;
 transform: scale(0.95);
-box-shadow: 0 0 3vw /*30px*/ rgb(157, 104, 255);
+box-shadow: 0 0 5vw /*30px*/ rgb(157, 104, 255);
 cursor: pointer;
 }
 
