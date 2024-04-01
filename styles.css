@@ -22,14 +22,15 @@ h1{
 
 
 h2{
-  font-size: 20px;
+  font-size: 2em;
+  font-weight: normal;
   margin-top: 5px;
   margin-bottom: 0px;
   padding: 0;
   color: #59e607;
   letter-spacing: 2px;
   text-align: center;
-  font-family:'Lucida Sans', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 p{
@@ -65,7 +66,7 @@ img.seleccionada {
 img:hover {
 background-color: #ffffff;
 transform: scale(0.95);
-box-shadow: 0 0 5vw /*30px*/ rgb(157, 104, 255);
+box-shadow: 0 0 4vw /*30px*/ rgb(157, 104, 255);
 cursor: pointer;
 }
 
